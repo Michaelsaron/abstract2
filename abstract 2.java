@@ -1,23 +1,25 @@
 package example.com;
 
-
-abstract class Language {
-  // method of abstract class
-  public void display() {
-    System.out.println("This is Java Programming");
+public abstract class fox {
+  
+  String breed;
+  
+  public void bark(){
+    system.out.println("awuu awuu");
   }
-}
 
-class Main extends Language {
-
-  public static void main(String[] args) {
+ 
+ class dog extends fox{
+   
+ }
+  public class abstractActivity{
+ 
+ public static void main(string[] args){
     
-    // create an object of Main
-    Main obj = new Main();
-
-    // access method of abstract class
-    // using object of Main class
-    obj.display();
+     dog d = new dog();
+     
+     d.bark();
+     systen.out.println(d.breed);
+  }   
   }
-}
-
+  }
